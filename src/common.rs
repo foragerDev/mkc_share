@@ -1,7 +1,7 @@
 use serde::{Serialize, Deserialize};
 
 #[derive(Serialize, Deserialize, PartialEq, Eq, Hash)]
-pub enum TransitionRegion {
+pub enum Direction {
     TOP,
     BOTTOM,
     LEFT,
